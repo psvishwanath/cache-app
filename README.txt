@@ -93,7 +93,7 @@ You can access the cache-service app on http://<minikube IP>:32285/vishapp/
 Steps to deploy if you are not able to push and pull container image
 
 1. After maven package docker command download the docker image locally
-   docler save cache-servive > cache-service.tar
+   docker save cache-servive > cache-service.tar
 2. load the downloaded cache-service image to minikube docker registry
    minikube ssh docker load < cache-service.tar 
 3. deploy/start the cache-service container
