@@ -54,6 +54,6 @@ http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd">
 </bean>
 <bean id="consumer" class="com.vish.kafka.CacheConsumer" >
 </bean>
-<bean id="cacheAppInit" class="com.vish.cache.CacheAppInitializer" init-method="init">
+<bean id="cacheAppInit" class="com.vish.cache.CacheAppInitializer" init-method="init" destroy-method="cleanUp">
 </bean>
 </beans>
