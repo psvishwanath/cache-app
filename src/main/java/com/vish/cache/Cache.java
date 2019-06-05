@@ -33,7 +33,7 @@ public class Cache {
     /* Method adds the employee object to DB and cache*/
 	public void addEmp(Emp e) throws Exception{
 		int ret = dao.save(e);
-		empList.add(e);
+		init();
 	}
 	
 	
