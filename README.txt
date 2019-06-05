@@ -37,7 +37,9 @@ Postgresql changes/setup:
 2. Create user test user and set passwd
    su - postgres
    createuser --interactive --pwprompt
-  
+   user: testuser
+   password: testuser
+     
 3. create Employee table    
    psql -d test
   
