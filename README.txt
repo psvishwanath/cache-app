@@ -13,7 +13,7 @@ Build requirements on RHEL
 2. Docker should be installed
 3. Apache-tomcat bundle should be available(download apache tomcat, extract it and rename to apache-tomcat)
    Note: set execution permission to catalina.sh
-   chmod +X catalina.sh     
+   chmod +x catalina.sh     
 
 
 Build steps
