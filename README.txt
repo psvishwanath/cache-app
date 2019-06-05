@@ -17,8 +17,8 @@ Build requirements on RHEL
 Build steps
 -----------
 1. clone the project from following git repo
-2. cd vishapp
-3. copy apache-tomcat dir to vishapp dir
+2. cd cache-app
+3. copy apache-tomcat dir to cache-app dir
 4. Run mvn clean install
 5. run mvn package docker:build to build docker image 
 6. Push the docker image to repository by command "docker push cache-service" 
