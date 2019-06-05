@@ -20,7 +20,9 @@ Build steps
 2. cd cache-app
 3. copy apache-tomcat dir to cache-app dir
 4. Run mvn clean install
-5. run mvn package docker:build to build docker image 
+5. run mvn package docker:build to build docker image
+   run following command before you run mvn package docker:build
+   echo "/target/docker/" > .maven-dockerignore
 6. Push the docker image to repository by command "docker push cache-service" 
 
 Note: Make sure that JAVA_HOME set properly before maven build. The project has been complied succesfully on java8.
