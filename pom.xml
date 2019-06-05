@@ -108,7 +108,7 @@
       <configuration>
         <images>
           <image>
-            <name>cache-service:${project.version}</name>
+            <name>cache-service</name>
             <build>
               <dockerFileDir>${project.basedir}</dockerFileDir>
             </build>
